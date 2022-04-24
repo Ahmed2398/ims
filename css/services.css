@@ -1,0 +1,39 @@
+.head-4 {
+    color: #2E368F;
+  }
+  
+  .service-ul {
+    border: 5px dashed;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  
+  /* .process-reng{
+    background-image: url('/img/undraw_problem_solving_re_4gq3.svg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+  
+  
+ .card-benfits {
+    text-align: center;
+    margin: 18px 0;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #2da2bc;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition:ease-in 3s;
+  
+  }
+   .card-benfits:hover{
+    transition:ease-in-out 3s;
+    transform:scale(1.1);
+    cursor: copy;
+  }
+  
+   .card-benfits .fas{
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+  }

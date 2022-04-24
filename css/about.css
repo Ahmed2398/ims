@@ -1,0 +1,72 @@
+#values {
+    background-image: url('/img/core.png');
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+    opacity: .8;
+}
+.content-values h2 {
+    font-size: 3rem;
+  }
+  
+  .hr-content-values {
+    width: 30%;
+    margin-bottom: 2rem;
+  }
+  
+  .content-values span {
+    color: #2e368f;
+  }
+  
+  .line-space {
+    line-height: 2;
+  }
+/* About table section */
+.pricing-plan li {
+    border-bottom: 1px dotted #ededed;
+    font-size: 16px;
+  }
+  
+  .pricing-plan {
+  
+    margin-bottom: 50px;
+  }
+  
+  .pricing-plan .card-header {
+  
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  
+  .card li {
+    padding: 8px 0;
+  }
+  
+  .set-services {
+    background: #F8A03A !important;
+    color: #ffffff;
+  }
+  
+  .set-solutions {
+    background-color: #AF226B !important;
+    color: #ffffff;
+  }
+  
+  .set-products {
+    background-color: #58C6C2 !important;
+    color: #ffffff;
+  }
+  
+  .starter {
+    background: #2da2bc !important;
+    color: #ffffff;
+  }
+  
+  .advanced {
+    background: #f79125 !important;
+    color: #ffffff;
+  }
+  
+  .business {
+    background: #cc2836 !important;
+    color: #ffffff;
+  }
