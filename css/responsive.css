@@ -1,0 +1,96 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner-row {
+    padding: 0;
+  }    
+  .head-one{
+        line-height: 1.5;
+        font-size: 14px !important;
+        font-weight: 800;
+      }
+      .hello-paragraph{
+        padding-top: 4rem;
+      }
+      .hello-paragraph .lead {
+        line-height: 1.4;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        font-size: 11px;
+}
+.hello-paragraph ul .list-icon{
+  padding: 0 8px !important;
+  padding-bottom: 5px ;
+}
+.text-btns{
+  display: inline-block !important;
+}
+.telemarketing{
+  display: inline-block !important;
+}
+/* .card-costme{
+  margin-left: -45px !important;
+  width: 18rem !important;
+} */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .head-one{
+    line-height: 1.5;
+    font-size: 20px !important;
+    font-weight: 800;
+  }
+  .hello-paragraph .lead{
+    line-height: 1.4;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.hello-paragraph ul .list-icon{
+padding: 0 8px !important;
+padding-bottom: 5px ;
+}
+h4 , h2 , h3{
+  font-size: 1.2rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .text-btns{
+    display: inline-block !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .head-one{
+    font-size: 3rem !important;
+    line-height: 1;
+    font-weight: 800;
+  }
+  .hello-paragraph .lead{
+    line-height: 1.4;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+  .text-btns{
+    display: inline-flex !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .head-one{
+    font-size: 4rem !important;
+    line-height: 1;
+    font-weight: 800;
+  }
+  .hello-paragraph .lead{
+    line-height: 1.4;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+}
