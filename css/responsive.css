@@ -1,15 +1,15 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .banner-row {
-    padding: 0;
+    padding: 0 !important;
   }    
-  .head-one{
+  .hello-paragraph .head-one{
         line-height: 1.5;
         font-size: 14px !important;
         font-weight: 800;
       }
       .hello-paragraph{
-        padding-top: 4rem;
+        padding-top: 4rem ;
       }
       .hello-paragraph .lead {
         line-height: 1.4;
