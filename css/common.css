@@ -1,6 +1,6 @@
 /* ************************************Common Style in projects sections**************************** */
 body{
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Helvetica-black',sans-serif !important;
 }
 /* Fonts Style */
 font-face {
@@ -27,12 +27,36 @@ font-face {
     font-family: Montserrat-Bold;
     src: url('../fonts/montserrat/Montserrat-Bold.ttf');
   }
+  @font-face {
+      font-family: Helvetica-black;
+      src: url('../fonts/helvetica/Helvetica-Black.ttf');
+  }
+  @font-face {
+    font-family: Helvetica-bold;
+    src: url('../fonts/helvetica/Helvetica-Bold.ttf');
+}
+@font-face {
+    font-family: Helvetica-BoldOblique;
+    src: url('../fonts/helvetica/Helvetica-BoldOblique.ttf');
+}
+@font-face {
+    font-family: Helvetica-Oblique;
+    src: url('../fonts/helvetica/Helvetica-Oblique.ttf');
+}
+@font-face {
+    font-family: Helvetica ;
+    src: url('../fonts/helvetica/Helvetica.ttf');
+}
+@font-face {
+    font-family: HelveticaLt ;
+    src: url('../fonts/helvetica/HelveticaLt.ttf');
+}
   /* END FONTS */
   #Loading{
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #3292a6 url('https://media.giphy.com/media/EJNm9rPe4J8FSIfZqm/giphy.gif');
+    background: #fff url('https://media.giphy.com/media/yyqOUPn5souNBSHUnU/giphy.gif');
     background-repeat: no-repeat;
     background-position: center;
     z-index: 99999 ;
@@ -108,7 +132,7 @@ font-face {
   /* END Line Space */
 /* Start  NAv_Bar Style */
 .container-nav {
-    width: 100%;
+    width: 92%;
     margin: auto;
     padding-top: 20px;
     position: absolute;
